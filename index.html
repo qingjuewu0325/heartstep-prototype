@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HeartStep English Mobile Prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="prototype-shell">
+      <aside class="storyboard" aria-label="Prototype screens">
+        <div>
+          <p class="eyebrow">HeartStep</p>
+          <h1>English mobile app prototype</h1>
+          <p class="story-copy">
+            A 390 x 844 phone interface built from the supplied workflow:
+            state-based readings, adjustable guidance, and reinforcing feedback.
+          </p>
+        </div>
+        <div id="screenNav" class="screen-nav"></div>
+      </aside>
+
+      <main class="stage">
+        <section class="phone-frame" aria-label="390 by 844 mobile prototype">
+          <div class="phone-hardware"></div>
+          <div id="phoneScreen" class="phone-screen"></div>
+        </section>
+        <div class="stage-controls" aria-label="Screen controls">
+          <button id="prevScreen" type="button" class="ghost-button">Previous</button>
+          <span id="screenCounter" class="counter"></span>
+          <button id="nextScreen" type="button" class="ghost-button">Next</button>
+        </div>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
